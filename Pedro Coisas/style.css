@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ffff, #b8b5ff);
+  }
+  
+  .page {
+    height: 100vh; /* Define a altura da página como 100% da altura da viewport */
+    overflow: hidden; /* Esconde a barra de rolagem */
+  }
+  
+  .hero {
+    padding: 100px 0;
+    text-align: center;
+    color: #000; /* Cor do texto preto */
+  }
+  
+  .section {
+    padding: 80px 0;
+    text-align: center;
+    color: #000; /* Cor do texto preto */
+  }
+  
+  .footer {
+    color: #000; /* Cor do texto preto */
+  }
+  
+  .bg-dark {
+    background: linear-gradient( #b8b5ff, #ffff);
+  }
+  
+  .bg-light {
+    background:  #ffff, #b8b5ff;
+  }
+  
+  .footer {
+    background-color: linear-gradient( #ffff, #b8b5ff);
+  }
+  

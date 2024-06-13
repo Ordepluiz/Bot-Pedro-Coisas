@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedro Coisas</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="page">
+    <header class="bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Pedro Coisas</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#cardapio">Cardápio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre-nos">Sobre Nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="hero" class="hero">
+      <div class="container">
+        <h1 class="display-4">Bem-vindo ao Pedro Coisas</h1>
+        <p class="lead">Descubra o melhor em doces e sobremesas.</p>
+        <a href="#cardapio" class="btn btn-primary btn-lg">Ver Cardápio</a>
+      </div>
+    </section>
+
+    <section id="conteudo" class="section bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Cardápio</h2>
+            <p>Confira nossas deliciosas opções de doces e sobremesas.</p>
+            <a href="#cardapio" class="btn btn-primary">Ver Cardápio</a>
+          </div>
+          <div class="col-md-4">
+            <h2>Sobre Nós</h2>
+            <p>Saiba mais sobre nossa história e nossa paixão por doces.</p>
+            <a href="#sobre-nos" class="btn btn-primary">Sobre Nós</a>
+          </div>
+          <div class="col-md-4">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para encomendas ou dúvidas.</p>
+            <a href="#contato" class="btn btn-primary">Contato</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="footer bg-dark">
+    </footer>
+  </div>
+  <div>
+    <script>
+      window.watsonAssistantChatOptions = {
+        integrationID: "ae3a8553-9861-41f5-8ed4-ff4807b036c6", // The ID of this integration.
+        region: "au-syd", // The region your integration is hosted in.
+        serviceInstanceID: "97b1250b-1abe-4f37-b728-2c8a168717c6", // The ID of your service instance.
+        onLoad: async (instance) => { await instance.render(); }
+      };
+      setTimeout(function(){
+        const t=document.createElement('script');
+        t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+        document.head.appendChild(t);
+      });
+    </script>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
